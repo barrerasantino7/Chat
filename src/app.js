@@ -49,3 +49,10 @@ io.on("connection", (socket)=>{//No debo de olvidarme de poner socket en el call
         io.emit("messagesLog", messages);
     })
 })
+
+//Sumar esto al package.json, justo debajo de "scripts"
+/*
+  "engines":{
+    "node":"14.x"
+  },
+*/ 
