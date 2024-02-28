@@ -56,3 +56,7 @@ io.on("connection", (socket)=>{//No debo de olvidarme de poner socket en el call
     "node":"14.x"
   },
 */ 
+//Y sumar esto EN "scripts"
+/*
+"start": "node src/app.js"
+ */
